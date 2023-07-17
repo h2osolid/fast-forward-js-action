@@ -8,7 +8,7 @@ Merge pull request using fast forward only, if possible, moving base branch (tar
 As a more advanced use case, this action can also update status API (with success or failure), which can be used to block pr when status checks are required to pass before merging. You can also have different failure messages commented on the pr issue, based on the state of a staging and a production branch.
 
 ## Example usage
-
+##
 ![](media/ff-success-video.gif)
 
 - Comment ```/fast-forward``` in a pull request.
